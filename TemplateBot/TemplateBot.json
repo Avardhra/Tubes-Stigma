@@ -1,0 +1,10 @@
+{
+  "name": "RAJA IBLIS",
+  "version": "1.0",
+  "authors": ["Nama Kamu", "Nama Teman 1", "Nama Teman 2"],
+  "description": "Bot Strategi Greedy - Tugas Besar Stima 2026",
+  "homepage": "",
+  "countryCodes": ["id"],
+  "platform": ".Net 10.0",
+  "programmingLang": "C# 10.0"
+}
