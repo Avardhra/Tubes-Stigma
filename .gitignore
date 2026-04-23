@@ -1,0 +1,10 @@
+[Bb]in/
+[Ob]j/
+
+.vs/
+*.user
+*.suo
+
+*.exe
+*.dll
+*.log
