@@ -17,21 +17,21 @@
     └─ README.md
 ```
 ```bash
-> Clone Repository Kami Dengan Cara
+# Clone Repository Kami Dengan Cara
 git clone https://github.com/Avardhra/TubesStigma.git
 ```
 ```bash
-> Bersihkan sisa compile lama
+# Bersihkan sisa compile lama
 dotnet clean
-> Jika terjadi error saat clean jalankan proses dibawah ini
+# Jika terjadi error saat clean jalankan proses dibawah ini
 dotnet restore
 ```
 ```bash
-> Build
+# Build
 dotnet build
 ```
 ```bash
-> Run
+# Run
 dotnet run
 ```
 
