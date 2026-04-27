@@ -42,8 +42,11 @@ dotnet run
 
 ## Robocode x Strategi Algoritma 
 ### This Stack
-[![My Skills](https://skillicons.dev/icons?i=cs)](https://skillicons.dev) ```<center> Project ini menggunakan based C# <center>```
 <center>
+
+[![My Skills](https://skillicons.dev/icons?i=cs)](https://skillicons.dev)
+
+</center>
 
 > [!NOTE]
 > Jangan lupa melihat struktur folder terlebih dahulu supaya tidak error saat proses build
@@ -53,5 +56,3 @@ dotnet run
 
 > [!WARNING]
 > Teks ini akan memiliki aksen warna kuning/oranye. 
-
-</center>
