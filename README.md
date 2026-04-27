@@ -2,8 +2,8 @@
 <center>
 
 #### Anggota Kelompok - BSK GARED
-<small> Gede Valendra `124140142` </small>
-<small> Faisal H Sinambela `124140040` </small>
+<small> Gede Valendra `124140142` |</small>
+<small> Faisal H Sinambela `124140040` |</small>
 <small> Stevan Immanuel Simbolon  `124140130` </small>
 
 </center>
