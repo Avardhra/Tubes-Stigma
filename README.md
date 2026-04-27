@@ -4,7 +4,7 @@
 * <small> Faisal H Sinambela `124140040` </small>
 * <small> Stevan Immanuel Simbolon  `124140130` </small>
 #
-### THE OTHE BOT - TANK TEMPUR
+### TANK TEMPUR [ BSK GARED ]
 ```markdown
 # Struktur Folder
     TubesStigma
