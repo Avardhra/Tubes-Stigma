@@ -16,11 +16,11 @@
     │  └─ tankBot.json
     └─ README.md
 ```
-```bash
+```makefile
 # Clone Repository Kami Dengan Cara
 git clone https://github.com/Avardhra/TubesStigma.git
 ```
-```bash
+```makefile
 # Bersihkan sisa compile lama
 dotnet clean
 # Jika terjadi error saat clean jalankan proses dibawah ini
