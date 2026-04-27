@@ -1,9 +1,8 @@
 # Tugas Besar Strategi Algoritma
-> [!Info]
-> #### Anggota Kelompok
-> * <small> Gede Valendra `124140142` </small>
-> * <small> Faisal H Sinambela `124140040` </small>
-> * <small> Stevan Immanuel Simbolon  `124140130` </small>
+#### Anggota Kelompok
+* <small> Gede Valendra `124140142` </small>
+* <small> Faisal H Sinambela `124140040` </small>
+* <small> Stevan Immanuel Simbolon  `124140130` </small>
 #
 ### THE OTHE BOT - TANK TEMPUR
 ```markdown
@@ -18,17 +17,30 @@
     └─ README.md
 ```
 ```bash
-git clone https://repo_kami/gituh
-mkdir darderdor
-dotnet run --project TemplateBot
+> Clone Repository Kami Dengan Cara
+git clone https://github.com/Avardhra/TubesStigma.git
 ```
-![C#](https://img.shields.io/badge/language-C%23-blue) ![Status](https://img.shields.io/badge/status-on--progress-green)
+```bash
+> Bersihkan sisa compile lama
+dotnet clean
+> Jika terjadi error saat clean jalankan proses dibawah ini
+dotnet restore
+```
+```bash
+> Build
+dotnet build
+```
+```bash
+> Run
+dotnet run
+```
 
-## Tech Stack
-[![My Skills](https://skillicons.dev/icons?i=cs,dotnet,git,linux,visualstudio)](https://skillicons.dev)
+## Robocode x Strategi Algoritma 
+### This Stack
+[![My Skills](https://skillicons.dev/icons?i=cs,dotnet,git,windows,visualstudio)](https://skillicons.dev)
 
 > [!NOTE]
-> Teks ini akan memiliki aksen warna biru di GitHub.
+> Jangan lupa melihat struktur folder terlebih dahulu supaya tidak error saat proses build
 
 > [!IMPORTANT]
 > Teks ini akan memiliki aksen warna ungu.
