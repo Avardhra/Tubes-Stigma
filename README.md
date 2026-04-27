@@ -1,5 +1,5 @@
 # Tugas Besar Strategi Algoritma
-> [!INFO]
+> [!Info]
 > #### Anggota Kelompok
 > * <small> Gede Valendra `124140142` </small>
 > * <small> Faisal H Sinambela `124140040` </small>
