@@ -1,7 +1,21 @@
-# Tubes-Stigma
+# Tugas Besar Strategi Algoritma
+> [!INFO]
+> #### Anggota Kelompok
+> * <small> Gede Valendra `124140142` </small>
+> * <small> Faisal H Sinambela `124140040` </small>
+> * <small> Stevan Immanuel Simbolon  `124140130` </small>
+#
+### THE OTHE BOT - TANK TEMPUR
 ```markdown
-# Cara Penggunaan Bot Kami
-* Install dan clone git ini
+# Struktur Folder
+    TubesStigma
+    ├─ doc
+    │
+    ├─ src
+    │  ├─ tankBot.cs
+    │  ├─ tankBot.csproj
+    │  └─ tankBot.json
+    └─ README.md
 ```
 ```bash
 git clone https://repo_kami/gituh
@@ -20,4 +34,9 @@ dotnet run --project TemplateBot
 > Teks ini akan memiliki aksen warna ungu.
 
 > [!WARNING]
-> Teks ini akan memiliki aksen warna kuning/oranye.
+> Teks ini akan memiliki aksen warna kuning/oranye. 
+
+> Info
+sdsd
+>
+sa

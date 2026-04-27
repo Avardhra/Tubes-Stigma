@@ -1,29 +1,43 @@
 using System;
+using System.Drawing;
 using Robocode.TankRoyale.BotApi;
 using Robocode.TankRoyale.BotApi.Events;
 
-namespace MyBot
-{
-    public class MyGreedyBot : Bot
+public class TemplateBot : Bot
+{   
+    /* A bot that drives forward and backward, and fires a bullet */
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            new MyGreedyBot().Start();
-        }
+        new TemplateBot().Start();
+    }
 
-        public MyGreedyBot() : base(BotInfo.FromFile("TemplateBot.json")) { }
+    TemplateBot() : base(BotInfo.FromFile("TemplateBot.json")) { }
 
-        public override void Run()
-        {
-            while (IsRunning)
-            {
-                TurnGunLeft(10);
-            }
-        }
+    public override void Run()
+    {
+        /* Customize bot colors, read the documentation for more information */
+        BodyColor = Color.Gray;
 
-        public override void OnScannedBot(ScannedBotEvent e)
+        while (IsRunning)
         {
-            Fire(1);
+            Forward(100); Back(100); Fire(1);
         }
     }
+
+    public override void OnScannedBot(ScannedBotEvent e)
+    {
+        Console.WriteLine("I see a bot at " + e.X + ", " + e.Y);
+    }
+
+    public override void OnHitBot(HitBotEvent e)
+    {
+        Console.WriteLine("Ouch! I hit a bot at " + e.X + ", " + e.Y);
+    }
+
+    public override void OnHitWall(HitWallEvent e)
+    {
+        Console.WriteLine("Ouch! I hit a wall, must turn back!");
+    }
+
+    /* Read the documentation for more events and methods */
 }
